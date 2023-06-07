@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Poppins:wght@500&family=Roboto:ital,wght@1,300&display=swap');
+
+body::before {
+    display: block;
+    content: '';
+    height: 50px;
+}
+
+body {
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Poppins';
+}
+
+p {
+    font-family: 'Roboto';
+}
+
+/* Navbar */
+
+.navbar-defult {
+    background-color: #fff;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000 !important;
+}
+
+/* Showcase */
+
+#showcase {
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#showcase img {
+    width: 700px;
+    position: relative;
+    bottom: 100px;
+    right: 150px;
+}
+
+/* Testimonial */
+
+#testimonial {
+    margin-top: 70px;
+    background: #f1f1f1;
+    padding: 40px;
+}
+
+#testimonial p {
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    color: #000;
+}
+
+#testimonial p.customer {
+    font-size: 22px;
+    color: #666;
+}
+
+/* Infos */
+
+#info1 {
+    margin-top: 190px;
+}
+
+#info1 img {
+    width: 550px;
+    position: relative;
+    bottom: 90px;
+    right: 30px;
+}
+
+@media (max-width: 680px) {
+    #info1 img {
+        width: 430px;
+        position: relative;
+        bottom: 60px;
+    }
+}
+
+#info1 h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#info1 p {
+    font-size: 20px;
+}
+
+#info2 {
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+#info2 .info-left {
+    margin-bottom: 60px;
+}
+
+/* Contact */
+
+#contact {
+    margin-top: 100px;
+    background: url(./img/img3.jpg) no-repeat;
+    background-size: auto;
+    background-position: center;
+    padding: 40px;
+    color: #fff;
+    border-top: #333 5px solid;
+    border-bottom: #333 5px solid;
+}
