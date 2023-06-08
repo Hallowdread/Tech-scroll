@@ -131,3 +131,27 @@ p {
     border-top: #333 5px solid;
     border-bottom: #333 5px solid;
 }
+
+@media (max-width: 320px) {
+    #info1 img {
+        width: 350px;
+        overflow: hidden;
+    }
+
+    #showcase img {
+        width: 400px;
+        position: relative;
+        top: 0px;
+        left: -50px;
+        overflow: hidden;
+    }
+
+    .nav-toggle {
+        position: absolute;
+        left: 250px;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+}
