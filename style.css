@@ -132,23 +132,109 @@ p {
     border-bottom: #333 5px solid;
 }
 
+/* Mobile Screen sm */
 @media (max-width: 320px) {
     #info1 img {
-        width: 350px;
+        width: 100px;
         overflow: hidden;
+        position: relative;
+        left: -50px;
     }
 
     #showcase img {
         width: 400px;
-        position: relative;
-        top: 0px;
-        left: -50px;
         overflow: hidden;
     }
 
     .nav-toggle {
         position: absolute;
         left: 250px;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+}
+
+/* Mobile Screen sm */
+@media (max-width: 375px) {
+    #info1 img {
+        width: 400px;
+        overflow: hidden;
+    }
+
+    #showcase img {
+        width: 500px;
+        position: relative;
+        top: 0px;
+        left: -80px;
+        overflow: hidden;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+}
+
+/* Mobile Screen lg */
+@media (max-width: 425px) {
+    #info1 img {
+        width: 400px;
+        overflow: hidden;
+    }
+
+    #showcase img {
+        width: 500px;
+        position: relative;
+        top: 0px;
+        left: -80px;
+        overflow: hidden;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+}
+
+/* Tablet Screen */
+
+@media (max-width:768px) {
+    #info1 img {
+        width: 400px;
+        position: relative;
+        top: -20px;
+        right: 60px;
+        overflow: hidden;
+    }
+
+    #showcase img {
+        width: 500px;
+        position: relative;
+        top: 0px;
+        left: -80px;
+        overflow: hidden;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1024px) {
+    #info1 img {
+        width: 400px;
+        position: relative;
+        top: -20px;
+        right: 60px;
+        overflow: hidden;
+    }
+
+    #showcase img {
+        width: 500px;
+        position: relative;
+        top: 0px;
+        left: -80px;
+        overflow: hidden;
     }
 
     .container {
